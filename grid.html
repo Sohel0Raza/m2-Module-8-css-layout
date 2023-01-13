@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 100px 200px auto 100px; */
+            /* grid-template-columns: repeat(5 ,100px); */
+            grid-template-columns: repeat(3,1fr) 100px;
+            gap: 10px 20px;
+            justify-content: center;
+        }
+
+        .item{
+            border: .5px solid tan;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h2>Grid</h2>
+    <div class="container">
+        <div class="item">HIMU-1</div>
+        <div class="item">HIMU-2</div>
+        <div class="item">HIMU-3</div>
+        <div class="item">HIMU-4</div>
+        <div class="item">HIMU-5</div>
+        <div class="item">HIMU-6</div>
+        <div class="item">HIMU-7</div>
+        <div class="item">HIMU-8</div>
+        <div class="item">HIMU-9</div>
+        <div class="item">HIMU-10</div>
+        <div class="item">HIMU-11</div>
+        <div class="item">HIMU-12</div>
+        <div class="item">HIMU-13</div>
+        <div class="item">HIMU-14</div>
+        <div class="item">HIMU-15</div>
+        <div class="item">HIMU-16</div>
+        <div class="item">HIMU-17</div>
+        <div class="item">HIMU-18</div>
+        <div class="item">HIMU-19</div>
+        <div class="item">HIMU-20</div>
+    </div>
+</body>
+</html>

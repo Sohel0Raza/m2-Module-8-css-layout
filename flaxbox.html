@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flaxbox</title>
+    <style>
+        .container{
+            height: 350px;
+            border: 1px solid springgreen;
+            display: flex;
+            align-items: stretch;
+            /* justify-content: space-around; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            /* justify-content: center;
+            align-items: center;
+            /* flex-direction: column-reverse;
+            flex-wrap: wrap; */
+        }
+
+        .box{
+            width: 120px;
+            /* height: 120px; */
+            border: 2px dashed thistle;
+        }
+
+        #box3{
+            flex-grow: 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">BOX 1</div>
+        <div class="box">BOX 2</div>
+        <div id="box3" class="box">BOX 3</div>
+    </div>
+</body>
+</html>

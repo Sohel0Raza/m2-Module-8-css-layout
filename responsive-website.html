@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 800px;
+            margin: 0 auto;
+            border: 2px solid purple;
+        }
+        h1{
+            font-size: 10vw;
+        }
+
+        .football{
+            width: 100%;
+        }
+
+        .container{
+            display: flex;
+        }
+
+        .container .food{
+            width: 50%;
+        }
+
+        .food img{
+            width: 100%;
+        }
+
+        @media screen and (max-width:576px){
+            .container{
+                flex-direction: column;
+            }
+            .container .food{
+            width: 100%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>It is a responsive Website</h1>
+        <section>
+            <h2>FOOTBALL</h2>
+            <img class="football" src="./images/1884497.webp" alt="" srcset="">
+        </section>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="food">
+                <img src="./images/download.jpg" alt="" srcset="">
+            </div>
+            <div class="food">
+                <img src="./images/1884497.webp" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
